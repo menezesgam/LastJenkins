@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -13,6 +15,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
+
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
 namespace LastJenkins
@@ -25,6 +28,10 @@ namespace LastJenkins
         public MainPage()
         {
             this.InitializeComponent();
+
+            string json = JsonConvert.SerializeObject("TESTE");
+            Debug.WriteLine(json);
+
         }
     }
 }
