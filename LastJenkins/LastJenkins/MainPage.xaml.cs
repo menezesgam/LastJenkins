@@ -29,7 +29,7 @@ namespace LastJenkins
         {
             this.InitializeComponent();
 
-            string json = JsonConvert.SerializeObject("TESTE");
+            string json = JsonConvert.SerializeObject("VAI MISERAAA");
             Debug.WriteLine(json);
 
         }
