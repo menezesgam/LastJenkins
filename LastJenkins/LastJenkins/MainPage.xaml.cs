@@ -29,9 +29,9 @@ namespace LastJenkins
         {
             this.InitializeComponent();
 
-            string json = JsonConvert.SerializeObject("VAI MISERAAA");
+            string json = JsonConvert.SerializeObject("VAI MISERAAA1203u1289h981he2ejn21je2n1098heOAISJIJ1PJEOIJ12OIEJ1PO2KPMÇLMçlmçmaskdamn");
             Debug.WriteLine(json);
-
+            meuLabel.Text = json.ToString();
         }
     }
 }

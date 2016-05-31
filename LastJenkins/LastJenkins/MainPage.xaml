@@ -7,7 +7,9 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+    <Grid>
+        <TextBlock Name="meuLabel" Text="MOIKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"></TextBlock>
+        <Button Name="meuBotao" >BOTAO CARAI</Button>
+        
     </Grid>
 </Page>
